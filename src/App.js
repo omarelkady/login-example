@@ -11,7 +11,7 @@ function App() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  const data = useSelector(state => state.cardData)
+  const data = useSelector(state => state.Data)
   const dispatch = useDispatch();
 
   async function login() {
